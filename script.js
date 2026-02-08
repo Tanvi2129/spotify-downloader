@@ -15,7 +15,7 @@ document.getElementById("downloadBtn").addEventListener("click", async function 
   const options = {
     method: 'GET',
     headers: {
-      'x-rapidapi-key':  'your Spotify key',
+      'x-rapidapi-key':  'SPOTIFY_API_KEY=your_spotify_api_key_here',
       'x-rapidapi-host': 'spotify-downloader9.p.rapidapi.com'
     }
   };
@@ -48,3 +48,4 @@ document.getElementById("downloadBtn").addEventListener("click", async function 
     resultDiv.innerHTML = "❌ An error occurred while fetching the download link.";
   }
 });
+
